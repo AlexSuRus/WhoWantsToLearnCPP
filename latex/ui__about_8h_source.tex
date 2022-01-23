@@ -1,0 +1,70 @@
+\hypertarget{ui__about_8h_source}{}\doxysection{ui\+\_\+about.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{/********************************************************************************}}
+\DoxyCodeLine{2 \textcolor{comment}{** Form generated from reading UI file 'about.ui'}}
+\DoxyCodeLine{3 \textcolor{comment}{**}}
+\DoxyCodeLine{4 \textcolor{comment}{** Created by: Qt User Interface Compiler version 6.2.2}}
+\DoxyCodeLine{5 \textcolor{comment}{**}}
+\DoxyCodeLine{6 \textcolor{comment}{** WARNING! All changes made in this file will be lost when recompiling UI file!}}
+\DoxyCodeLine{7 \textcolor{comment}{********************************************************************************/}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#ifndef UI\_ABOUT\_H}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#define UI\_ABOUT\_H}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include <QtCore/QVariant>}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include <QtWidgets/QApplication>}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include <QtWidgets/QDialog>}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include <QtWidgets/QFrame>}}
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#include <QtWidgets/QLabel>}}
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#include <QtWidgets/QVBoxLayout>}}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19 QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21 \textcolor{keyword}{class }\mbox{\hyperlink{class_ui__about}{Ui\_about}}}
+\DoxyCodeLine{22 \{}
+\DoxyCodeLine{23 \textcolor{keyword}{public}:}
+\DoxyCodeLine{24     QFrame *credits;}
+\DoxyCodeLine{25     QVBoxLayout *verticalLayout\_3;}
+\DoxyCodeLine{26     QLabel *credit\_8;}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{28     \textcolor{keywordtype}{void} setupUi(QDialog *about)}
+\DoxyCodeLine{29     \{}
+\DoxyCodeLine{30         \textcolor{keywordflow}{if} (about-\/>objectName().isEmpty())}
+\DoxyCodeLine{31             about-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}about"{}}));}
+\DoxyCodeLine{32         about-\/>resize(240, 159);}
+\DoxyCodeLine{33         credits = \textcolor{keyword}{new} QFrame(about);}
+\DoxyCodeLine{34         credits-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}credits"{}}));}
+\DoxyCodeLine{35         credits-\/>setGeometry(QRect(20, 10, 201, 131));}
+\DoxyCodeLine{36         credits-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}color:black;\(\backslash\)n"{}}}
+\DoxyCodeLine{37 \textcolor{stringliteral}{"{}"{}}));}
+\DoxyCodeLine{38         verticalLayout\_3 = \textcolor{keyword}{new} QVBoxLayout(credits);}
+\DoxyCodeLine{39         verticalLayout\_3-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}verticalLayout\_3"{}}));}
+\DoxyCodeLine{40         credit\_8 = \textcolor{keyword}{new} QLabel(credits);}
+\DoxyCodeLine{41         credit\_8-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}credit\_8"{}}));}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43         verticalLayout\_3-\/>addWidget(credit\_8);}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45 }
+\DoxyCodeLine{46         retranslateUi(about);}
+\DoxyCodeLine{47 }
+\DoxyCodeLine{48         QMetaObject::connectSlotsByName(about);}
+\DoxyCodeLine{49     \} \textcolor{comment}{// setupUi}}
+\DoxyCodeLine{50 }
+\DoxyCodeLine{51     \textcolor{keywordtype}{void} retranslateUi(QDialog *about)}
+\DoxyCodeLine{52     \{}
+\DoxyCodeLine{53         about-\/>setWindowTitle(QCoreApplication::translate(\textcolor{stringliteral}{"{}about"{}}, \textcolor{stringliteral}{"{}Developers"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{54         credit\_8-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}about"{}}, \textcolor{stringliteral}{"{}<html><head/><body><p align=\(\backslash\)"{}center\(\backslash\)"{}>Surikov AS BPM-\/20-\/2</p></body></html>"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{55     \} \textcolor{comment}{// retranslateUi}}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57 \};}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59 \textcolor{keyword}{namespace }Ui \{}
+\DoxyCodeLine{60     \textcolor{keyword}{class }\mbox{\hyperlink{class_ui_1_1about}{about}}: \textcolor{keyword}{public} \mbox{\hyperlink{class_ui__about}{Ui\_about}} \{\};}
+\DoxyCodeLine{61 \} \textcolor{comment}{// namespace Ui}}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63 QT\_END\_NAMESPACE}
+\DoxyCodeLine{64 }
+\DoxyCodeLine{65 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// UI\_ABOUT\_H}}
+
+\end{DoxyCode}

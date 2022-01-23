@@ -1,0 +1,148 @@
+\hypertarget{ui__questionentry_8h_source}{}\doxysection{ui\+\_\+questionentry.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{/********************************************************************************}}
+\DoxyCodeLine{2 \textcolor{comment}{** Form generated from reading UI file 'questionentry.ui'}}
+\DoxyCodeLine{3 \textcolor{comment}{**}}
+\DoxyCodeLine{4 \textcolor{comment}{** Created by: Qt User Interface Compiler version 6.2.2}}
+\DoxyCodeLine{5 \textcolor{comment}{**}}
+\DoxyCodeLine{6 \textcolor{comment}{** WARNING! All changes made in this file will be lost when recompiling UI file!}}
+\DoxyCodeLine{7 \textcolor{comment}{********************************************************************************/}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#ifndef UI\_QUESTIONENTRY\_H}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#define UI\_QUESTIONENTRY\_H}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include <QtCore/QVariant>}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include <QtWidgets/QAbstractButton>}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include <QtWidgets/QApplication>}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include <QtWidgets/QDialog>}}
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#include <QtWidgets/QDialogButtonBox>}}
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#include <QtWidgets/QLabel>}}
+\DoxyCodeLine{18 \textcolor{preprocessor}{\#include <QtWidgets/QLineEdit>}}
+\DoxyCodeLine{19 \textcolor{preprocessor}{\#include <QtWidgets/QSpinBox>}}
+\DoxyCodeLine{20 \textcolor{preprocessor}{\#include <QtWidgets/QTextEdit>}}
+\DoxyCodeLine{21 \textcolor{preprocessor}{\#include <QtWidgets/QVBoxLayout>}}
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#include <QtWidgets/QWidget>}}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24 QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{keyword}{class }\mbox{\hyperlink{class_ui__questionentry}{Ui\_questionentry}}}
+\DoxyCodeLine{27 \{}
+\DoxyCodeLine{28 \textcolor{keyword}{public}:}
+\DoxyCodeLine{29     QDialogButtonBox *buttonBox;}
+\DoxyCodeLine{30     QLabel *answer1;}
+\DoxyCodeLine{31     QLabel *answer2;}
+\DoxyCodeLine{32     QLabel *answer3;}
+\DoxyCodeLine{33     QLabel *answer4;}
+\DoxyCodeLine{34     QSpinBox *spinBox;}
+\DoxyCodeLine{35     QLabel *answeroption;}
+\DoxyCodeLine{36     QTextEdit *questionbox;}
+\DoxyCodeLine{37     QLabel *question;}
+\DoxyCodeLine{38     QLabel *total;}
+\DoxyCodeLine{39     QLabel *label;}
+\DoxyCodeLine{40     QWidget *layoutWidget;}
+\DoxyCodeLine{41     QVBoxLayout *verticalLayout;}
+\DoxyCodeLine{42     QLineEdit *option1;}
+\DoxyCodeLine{43     QLineEdit *option2;}
+\DoxyCodeLine{44     QLineEdit *option3;}
+\DoxyCodeLine{45     QLineEdit *option4;}
+\DoxyCodeLine{46 }
+\DoxyCodeLine{47     \textcolor{keywordtype}{void} setupUi(QDialog *questionentry)}
+\DoxyCodeLine{48     \{}
+\DoxyCodeLine{49         \textcolor{keywordflow}{if} (questionentry-\/>objectName().isEmpty())}
+\DoxyCodeLine{50             questionentry-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}questionentry"{}}));}
+\DoxyCodeLine{51         questionentry-\/>resize(640, 480);}
+\DoxyCodeLine{52         questionentry-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}"{}}));}
+\DoxyCodeLine{53         buttonBox = \textcolor{keyword}{new} QDialogButtonBox(questionentry);}
+\DoxyCodeLine{54         buttonBox-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}buttonBox"{}}));}
+\DoxyCodeLine{55         buttonBox-\/>setGeometry(QRect(0, 440, 621, 32));}
+\DoxyCodeLine{56         buttonBox-\/>setOrientation(Qt::Horizontal);}
+\DoxyCodeLine{57         buttonBox-\/>setStandardButtons(QDialogButtonBox::Cancel|QDialogButtonBox::Ok);}
+\DoxyCodeLine{58         answer1 = \textcolor{keyword}{new} QLabel(questionentry);}
+\DoxyCodeLine{59         answer1-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}answer1"{}}));}
+\DoxyCodeLine{60         answer1-\/>setGeometry(QRect(140, 180, 67, 17));}
+\DoxyCodeLine{61         answer2 = \textcolor{keyword}{new} QLabel(questionentry);}
+\DoxyCodeLine{62         answer2-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}answer2"{}}));}
+\DoxyCodeLine{63         answer2-\/>setGeometry(QRect(140, 220, 67, 17));}
+\DoxyCodeLine{64         answer3 = \textcolor{keyword}{new} QLabel(questionentry);}
+\DoxyCodeLine{65         answer3-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}answer3"{}}));}
+\DoxyCodeLine{66         answer3-\/>setGeometry(QRect(140, 270, 67, 17));}
+\DoxyCodeLine{67         answer4 = \textcolor{keyword}{new} QLabel(questionentry);}
+\DoxyCodeLine{68         answer4-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}answer4"{}}));}
+\DoxyCodeLine{69         answer4-\/>setGeometry(QRect(140, 320, 67, 17));}
+\DoxyCodeLine{70         spinBox = \textcolor{keyword}{new} QSpinBox(questionentry);}
+\DoxyCodeLine{71         spinBox-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}spinBox"{}}));}
+\DoxyCodeLine{72         spinBox-\/>setGeometry(QRect(240, 390, 61, 27));}
+\DoxyCodeLine{73         answeroption = \textcolor{keyword}{new} QLabel(questionentry);}
+\DoxyCodeLine{74         answeroption-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}answeroption"{}}));}
+\DoxyCodeLine{75         answeroption-\/>setGeometry(QRect(120, 390, 121, 20));}
+\DoxyCodeLine{76         questionbox = \textcolor{keyword}{new} QTextEdit(questionentry);}
+\DoxyCodeLine{77         questionbox-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}questionbox"{}}));}
+\DoxyCodeLine{78         questionbox-\/>setGeometry(QRect(230, 40, 256, 91));}
+\DoxyCodeLine{79         question = \textcolor{keyword}{new} QLabel(questionentry);}
+\DoxyCodeLine{80         question-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}question"{}}));}
+\DoxyCodeLine{81         question-\/>setGeometry(QRect(130, 80, 67, 17));}
+\DoxyCodeLine{82         total = \textcolor{keyword}{new} QLabel(questionentry);}
+\DoxyCodeLine{83         total-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}total"{}}));}
+\DoxyCodeLine{84         total-\/>setGeometry(QRect(390, 10, 67, 17));}
+\DoxyCodeLine{85         label = \textcolor{keyword}{new} QLabel(questionentry);}
+\DoxyCodeLine{86         label-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}label"{}}));}
+\DoxyCodeLine{87         label-\/>setGeometry(QRect(96, 10, 211, 20));}
+\DoxyCodeLine{88         layoutWidget = \textcolor{keyword}{new} QWidget(questionentry);}
+\DoxyCodeLine{89         layoutWidget-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}layoutWidget"{}}));}
+\DoxyCodeLine{90         layoutWidget-\/>setGeometry(QRect(230, 150, 211, 211));}
+\DoxyCodeLine{91         verticalLayout = \textcolor{keyword}{new} QVBoxLayout(layoutWidget);}
+\DoxyCodeLine{92         verticalLayout-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}verticalLayout"{}}));}
+\DoxyCodeLine{93         verticalLayout-\/>setContentsMargins(0, 0, 0, 0);}
+\DoxyCodeLine{94         option1 = \textcolor{keyword}{new} QLineEdit(layoutWidget);}
+\DoxyCodeLine{95         option1-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}option1"{}}));}
+\DoxyCodeLine{96 }
+\DoxyCodeLine{97         verticalLayout-\/>addWidget(option1);}
+\DoxyCodeLine{98 }
+\DoxyCodeLine{99         option2 = \textcolor{keyword}{new} QLineEdit(layoutWidget);}
+\DoxyCodeLine{100         option2-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}option2"{}}));}
+\DoxyCodeLine{101 }
+\DoxyCodeLine{102         verticalLayout-\/>addWidget(option2);}
+\DoxyCodeLine{103 }
+\DoxyCodeLine{104         option3 = \textcolor{keyword}{new} QLineEdit(layoutWidget);}
+\DoxyCodeLine{105         option3-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}option3"{}}));}
+\DoxyCodeLine{106 }
+\DoxyCodeLine{107         verticalLayout-\/>addWidget(option3);}
+\DoxyCodeLine{108 }
+\DoxyCodeLine{109         option4 = \textcolor{keyword}{new} QLineEdit(layoutWidget);}
+\DoxyCodeLine{110         option4-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}option4"{}}));}
+\DoxyCodeLine{111 }
+\DoxyCodeLine{112         verticalLayout-\/>addWidget(option4);}
+\DoxyCodeLine{113 }
+\DoxyCodeLine{114 }
+\DoxyCodeLine{115         retranslateUi(questionentry);}
+\DoxyCodeLine{116         QObject::connect(buttonBox, \&QDialogButtonBox::accepted, questionentry, qOverload<>(\&QDialog::accept));}
+\DoxyCodeLine{117         QObject::connect(buttonBox, \&QDialogButtonBox::rejected, questionentry, qOverload<>(\&QDialog::reject));}
+\DoxyCodeLine{118 }
+\DoxyCodeLine{119         QMetaObject::connectSlotsByName(questionentry);}
+\DoxyCodeLine{120     \} \textcolor{comment}{// setupUi}}
+\DoxyCodeLine{121 }
+\DoxyCodeLine{122     \textcolor{keywordtype}{void} retranslateUi(QDialog *questionentry)}
+\DoxyCodeLine{123     \{}
+\DoxyCodeLine{124         questionentry-\/>setWindowTitle(QCoreApplication::translate(\textcolor{stringliteral}{"{}questionentry"{}}, \textcolor{stringliteral}{"{}Enter the question"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{125         answer1-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}questionentry"{}}, \textcolor{stringliteral}{"{}Answer 1"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{126         answer2-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}questionentry"{}}, \textcolor{stringliteral}{"{}Answer 2"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{127         answer3-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}questionentry"{}}, \textcolor{stringliteral}{"{}Answer 3"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{128         answer4-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}questionentry"{}}, \textcolor{stringliteral}{"{}Answer 4"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{129         answeroption-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}questionentry"{}}, \textcolor{stringliteral}{"{}Answer option"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{130         question-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}questionentry"{}}, \textcolor{stringliteral}{"{}Question"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{131         total-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}questionentry"{}}, \textcolor{stringliteral}{"{}infoofquestion"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{132         label-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}questionentry"{}}, \textcolor{stringliteral}{"{}Number in Question list"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{133     \} \textcolor{comment}{// retranslateUi}}
+\DoxyCodeLine{134 }
+\DoxyCodeLine{135 \};}
+\DoxyCodeLine{136 }
+\DoxyCodeLine{137 \textcolor{keyword}{namespace }Ui \{}
+\DoxyCodeLine{138     \textcolor{keyword}{class }\mbox{\hyperlink{class_ui_1_1questionentry}{questionentry}}: \textcolor{keyword}{public} \mbox{\hyperlink{class_ui__questionentry}{Ui\_questionentry}} \{\};}
+\DoxyCodeLine{139 \} \textcolor{comment}{// namespace Ui}}
+\DoxyCodeLine{140 }
+\DoxyCodeLine{141 QT\_END\_NAMESPACE}
+\DoxyCodeLine{142 }
+\DoxyCodeLine{143 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// UI\_QUESTIONENTRY\_H}}
+
+\end{DoxyCode}

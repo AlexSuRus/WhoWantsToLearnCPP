@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/resource">
+        <file>resource/box.png</file>
+        <file>resource/questionbox.png</file>
+        <file>resource/separator.png</file>
+        <file>resource/leave_button.png</file>
+        <file>resource/startbutton.png</file>
+        <file>resource/tick.png</file>
+        <file>resource/cross.png</file>
+        <file>resource/clapping.png</file>
+        <file>resource/winning.png</file>
+        <file>resource/graph.png</file>
+        <file>resource/CPP icon.jpg</file>
+        <file>resource/C++ quest.jpg</file>
+        <file>resource/PDD back.jpg</file>
+    </qresource>
+</RCC>

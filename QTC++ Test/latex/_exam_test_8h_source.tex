@@ -1,0 +1,67 @@
+\hypertarget{_exam_test_8h_source}{}\doxysection{Exam\+Test.\+h}
+\label{_exam_test_8h_source}\index{code/ExamTest.h@{code/ExamTest.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef EXAMTEST\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define EXAMTEST\_H}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}resultofquestion.h"{}}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <QMainWindow>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}code/filehandle.h"{}}}
+\DoxyCodeLine{6 \textcolor{keyword}{namespace }Ui}
+\DoxyCodeLine{7 \{}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{12 \textcolor{keyword}{class }\mbox{\hyperlink{class_exam_test}{ExamTest}};}
+\DoxyCodeLine{13 \}}
+\DoxyCodeLine{14 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{15 \textcolor{comment}{/*variables for random getquestion*/}}
+\DoxyCodeLine{20 \mbox{\hyperlink{classquestion}{question}} getquestion();}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22 \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{27 QString convertqidtoamount(\textcolor{keywordtype}{int} qid);}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29 }
+\DoxyCodeLine{33 \textcolor{keyword}{class }\mbox{\hyperlink{class_exam_test}{ExamTest}} : \textcolor{keyword}{public} QMainWindow}
+\DoxyCodeLine{34 \{}
+\DoxyCodeLine{35     Q\_OBJECT}
+\DoxyCodeLine{36     }
+\DoxyCodeLine{37 \textcolor{keyword}{public}:}
+\DoxyCodeLine{42     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_exam_test_a2f5dff88dc1c22ccc6df0b504975acf6}{updatescore}}();}
+\DoxyCodeLine{47     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_exam_test_ad9e67484243d6ac4655f3d7762aed754}{evaluatechoice}}(\textcolor{keywordtype}{int});}
+\DoxyCodeLine{52     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_exam_test_a1eee142a4888ae736e93ab05635a2e81}{uidefaulter}}();}
+\DoxyCodeLine{57     \textcolor{keyword}{explicit} \mbox{\hyperlink{class_exam_test_a5f9c85ad532d0d96aff06112402d8502}{ExamTest}}(QWidget *parent = 0);}
+\DoxyCodeLine{62     \mbox{\hyperlink{class_exam_test_a13fc2077f05d1fc15179d946cdd6d82c}{\string~ExamTest}}();}
+\DoxyCodeLine{63     }
+\DoxyCodeLine{64 \textcolor{keyword}{private} slots:}
+\DoxyCodeLine{65     \textcolor{keywordtype}{void} on\_Exit\_clicked();}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67     \textcolor{keywordtype}{void} on\_ll\_fiftyfifty\_clicked();}
+\DoxyCodeLine{68 }
+\DoxyCodeLine{69     \textcolor{keywordtype}{void} on\_quitthegame\_clicked();}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{71     \textcolor{keywordtype}{void} on\_ll\_audiencepoll\_clicked();}
+\DoxyCodeLine{72 }
+\DoxyCodeLine{73     \textcolor{keywordtype}{void} on\_gamebeginbutton\_clicked();}
+\DoxyCodeLine{74 }
+\DoxyCodeLine{75     \textcolor{keywordtype}{void} on\_option1\_clicked();}
+\DoxyCodeLine{76 }
+\DoxyCodeLine{77     \textcolor{keywordtype}{void} on\_option2\_clicked();}
+\DoxyCodeLine{78 }
+\DoxyCodeLine{79     \textcolor{keywordtype}{void} on\_option3\_clicked();}
+\DoxyCodeLine{80 }
+\DoxyCodeLine{81     \textcolor{keywordtype}{void} on\_option4\_clicked();}
+\DoxyCodeLine{82 }
+\DoxyCodeLine{83     \textcolor{keywordtype}{void} on\_ll\_flip\_question\_clicked();}
+\DoxyCodeLine{84 }
+\DoxyCodeLine{85     \textcolor{keywordtype}{void} on\_pushButton\_clicked();}
+\DoxyCodeLine{86 }
+\DoxyCodeLine{87 \textcolor{keyword}{private}:}
+\DoxyCodeLine{88     \mbox{\hyperlink{classresultofquestion}{resultofquestion}} rqwindow;}
+\DoxyCodeLine{89 }
+\DoxyCodeLine{90     Ui::ExamTest *ui;}
+\DoxyCodeLine{91     \textcolor{keywordtype}{int} questioncount;}
+\DoxyCodeLine{92     \textcolor{keywordtype}{void} gameover();}
+\DoxyCodeLine{93 }
+\DoxyCodeLine{94 \};}
+\DoxyCodeLine{95 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// EXAMTEST\_H}}
+
+\end{DoxyCode}

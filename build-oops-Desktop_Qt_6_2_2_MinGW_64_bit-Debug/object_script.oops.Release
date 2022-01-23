@@ -1,0 +1,16 @@
+release/main.o
+release/ExamTest.o
+release/question.o
+release/filehandle.o
+release/questionentry.o
+release/startscreen.o
+release/resultofquestion.o
+release/audiencepolldialog.o
+release/about.o
+release/qrc_resources.o
+release/moc_ExamTest.o
+release/moc_questionentry.o
+release/moc_startscreen.o
+release/moc_resultofquestion.o
+release/moc_audiencepolldialog.o
+release/moc_about.o

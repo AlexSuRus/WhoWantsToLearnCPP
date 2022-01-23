@@ -1,0 +1,79 @@
+\hypertarget{ui__startscreen_8h_source}{}\doxysection{ui\+\_\+startscreen.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{/********************************************************************************}}
+\DoxyCodeLine{2 \textcolor{comment}{** Form generated from reading UI file 'startscreen.ui'}}
+\DoxyCodeLine{3 \textcolor{comment}{**}}
+\DoxyCodeLine{4 \textcolor{comment}{** Created by: Qt User Interface Compiler version 6.2.2}}
+\DoxyCodeLine{5 \textcolor{comment}{**}}
+\DoxyCodeLine{6 \textcolor{comment}{** WARNING! All changes made in this file will be lost when recompiling UI file!}}
+\DoxyCodeLine{7 \textcolor{comment}{********************************************************************************/}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#ifndef UI\_STARTSCREEN\_H}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#define UI\_STARTSCREEN\_H}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include <QtCore/QVariant>}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include <QtWidgets/QApplication>}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include <QtWidgets/QDialog>}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include <QtWidgets/QGraphicsView>}}
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#include <QtWidgets/QPushButton>}}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18 QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20 \textcolor{keyword}{class }\mbox{\hyperlink{class_ui__startscreen}{Ui\_startscreen}}}
+\DoxyCodeLine{21 \{}
+\DoxyCodeLine{22 \textcolor{keyword}{public}:}
+\DoxyCodeLine{23     QGraphicsView *KBC;}
+\DoxyCodeLine{24     QGraphicsView *graphicsView;}
+\DoxyCodeLine{25     QPushButton *kbcbutton;}
+\DoxyCodeLine{26     QPushButton *qbutton;}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{28     \textcolor{keywordtype}{void} setupUi(QDialog *startscreen)}
+\DoxyCodeLine{29     \{}
+\DoxyCodeLine{30         \textcolor{keywordflow}{if} (startscreen-\/>objectName().isEmpty())}
+\DoxyCodeLine{31             startscreen-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}startscreen"{}}));}
+\DoxyCodeLine{32         startscreen-\/>resize(640, 480);}
+\DoxyCodeLine{33         startscreen-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}background-\/color:\#000000"{}}));}
+\DoxyCodeLine{34         KBC = \textcolor{keyword}{new} QGraphicsView(startscreen);}
+\DoxyCodeLine{35         KBC-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}KBC"{}}));}
+\DoxyCodeLine{36         KBC-\/>setGeometry(QRect(60, 90, 260, 210));}
+\DoxyCodeLine{37         KBC-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}border-\/image:url(:/resource/resource/CPP icon.jpg);\(\backslash\)n"{}}}
+\DoxyCodeLine{38 \textcolor{stringliteral}{"{}"{}}));}
+\DoxyCodeLine{39         graphicsView = \textcolor{keyword}{new} QGraphicsView(startscreen);}
+\DoxyCodeLine{40         graphicsView-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}graphicsView"{}}));}
+\DoxyCodeLine{41         graphicsView-\/>setGeometry(QRect(360, 90, 260, 210));}
+\DoxyCodeLine{42         graphicsView-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}border-\/image:url(:/resource/resource/C++ quest.jpg);"{}}));}
+\DoxyCodeLine{43         kbcbutton = \textcolor{keyword}{new} QPushButton(startscreen);}
+\DoxyCodeLine{44         kbcbutton-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}kbcbutton"{}}));}
+\DoxyCodeLine{45         kbcbutton-\/>setGeometry(QRect(60, 310, 261, 51));}
+\DoxyCodeLine{46         kbcbutton-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}color:rgb(255, 255, 255);\(\backslash\)n"{}}}
+\DoxyCodeLine{47 \textcolor{stringliteral}{"{}background-\/color:\#000000"{}}));}
+\DoxyCodeLine{48         qbutton = \textcolor{keyword}{new} QPushButton(startscreen);}
+\DoxyCodeLine{49         qbutton-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}qbutton"{}}));}
+\DoxyCodeLine{50         qbutton-\/>setGeometry(QRect(360, 310, 260, 51));}
+\DoxyCodeLine{51         qbutton-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}color:rgb(255, 255, 255);\(\backslash\)n"{}}}
+\DoxyCodeLine{52 \textcolor{stringliteral}{"{}background-\/color:\#000000"{}}));}
+\DoxyCodeLine{53 }
+\DoxyCodeLine{54         retranslateUi(startscreen);}
+\DoxyCodeLine{55 }
+\DoxyCodeLine{56         QMetaObject::connectSlotsByName(startscreen);}
+\DoxyCodeLine{57     \} \textcolor{comment}{// setupUi}}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59     \textcolor{keywordtype}{void} retranslateUi(QDialog *startscreen)}
+\DoxyCodeLine{60     \{}
+\DoxyCodeLine{61         startscreen-\/>setWindowTitle(QCoreApplication::translate(\textcolor{stringliteral}{"{}startscreen"{}}, \textcolor{stringliteral}{"{}QTC++ Test"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{62         kbcbutton-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}startscreen"{}}, \textcolor{stringliteral}{"{}Take test"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{63         qbutton-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}startscreen"{}}, \textcolor{stringliteral}{"{}Add questions"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{64     \} \textcolor{comment}{// retranslateUi}}
+\DoxyCodeLine{65 }
+\DoxyCodeLine{66 \};}
+\DoxyCodeLine{67 }
+\DoxyCodeLine{68 \textcolor{keyword}{namespace }Ui \{}
+\DoxyCodeLine{69     \textcolor{keyword}{class }\mbox{\hyperlink{class_ui_1_1startscreen}{startscreen}}: \textcolor{keyword}{public} \mbox{\hyperlink{class_ui__startscreen}{Ui\_startscreen}} \{\};}
+\DoxyCodeLine{70 \} \textcolor{comment}{// namespace Ui}}
+\DoxyCodeLine{71 }
+\DoxyCodeLine{72 QT\_END\_NAMESPACE}
+\DoxyCodeLine{73 }
+\DoxyCodeLine{74 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// UI\_STARTSCREEN\_H}}
+
+\end{DoxyCode}

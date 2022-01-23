@@ -1,0 +1,32 @@
+\hypertarget{audiencepolldialog_8h_source}{}\doxysection{audiencepolldialog.\+h}
+\label{audiencepolldialog_8h_source}\index{code/audiencepolldialog.h@{code/audiencepolldialog.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef AUDIENCEPOLLDIALOG\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define AUDIENCEPOLLDIALOG\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <QDialog>}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 \textcolor{keyword}{namespace }Ui \{}
+\DoxyCodeLine{7 \textcolor{keyword}{class }\mbox{\hyperlink{classaudiencepolldialog}{audiencepolldialog}};}
+\DoxyCodeLine{8 \}}
+\DoxyCodeLine{13 \textcolor{keyword}{class }\mbox{\hyperlink{classaudiencepolldialog}{audiencepolldialog}} : \textcolor{keyword}{public} QDialog}
+\DoxyCodeLine{14 \{}
+\DoxyCodeLine{15     Q\_OBJECT}
+\DoxyCodeLine{16     }
+\DoxyCodeLine{17 \textcolor{keyword}{public}:}
+\DoxyCodeLine{22     \textcolor{keywordtype}{void} \mbox{\hyperlink{classaudiencepolldialog_a824b2dbba97a25ccbd9206a15dc66bd3}{setvalues}}();}
+\DoxyCodeLine{27     \textcolor{keywordtype}{void} \mbox{\hyperlink{classaudiencepolldialog_a6f6533fc92472f26c07af850da78ed77}{randomhistogramvalues}}(\textcolor{keywordtype}{int} correctoption);}
+\DoxyCodeLine{32     \textcolor{keyword}{explicit} \mbox{\hyperlink{classaudiencepolldialog_a8d84f847b0b4920f6abf9f8670b7c2ec}{audiencepolldialog}}(QWidget *parent = 0, \textcolor{keywordtype}{int} answer=1);}
+\DoxyCodeLine{37     \mbox{\hyperlink{classaudiencepolldialog_a6c2f7f006c4293ae7f9abaa21c22a512}{\string~audiencepolldialog}}();}
+\DoxyCodeLine{42     \textcolor{keywordtype}{void} \mbox{\hyperlink{classaudiencepolldialog_afe018e53da836e44f7ca5f99ae886ec8}{paintEvent}}(QPaintEvent *event);}
+\DoxyCodeLine{47     \textcolor{keywordtype}{void} \mbox{\hyperlink{classaudiencepolldialog_a724c1e87cfd0320ea0b7a34d451efc70}{drawhistograms}}(QPainter *qp);}
+\DoxyCodeLine{48     }
+\DoxyCodeLine{49 \textcolor{keyword}{private}:}
+\DoxyCodeLine{54     \textcolor{keywordtype}{int} option[4];}
+\DoxyCodeLine{55     Ui::audiencepolldialog *ui;}
+\DoxyCodeLine{56 \};}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// AUDIENCEPOLLDIALOG\_H}}
+
+\end{DoxyCode}

@@ -1,0 +1,16 @@
+debug/main.o
+debug/ExamTest.o
+debug/question.o
+debug/filehandle.o
+debug/questionentry.o
+debug/startscreen.o
+debug/resultofquestion.o
+debug/audiencepolldialog.o
+debug/about.o
+debug/qrc_resources.o
+debug/moc_ExamTest.o
+debug/moc_questionentry.o
+debug/moc_startscreen.o
+debug/moc_resultofquestion.o
+debug/moc_audiencepolldialog.o
+debug/moc_about.o

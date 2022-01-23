@@ -1,0 +1,36 @@
+\hypertarget{questionentry_8h_source}{}\doxysection{questionentry.\+h}
+\label{questionentry_8h_source}\index{code/questionentry.h@{code/questionentry.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef QUESTIONENTRY\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define QUESTIONENTRY\_H}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}filehandle.h"{}}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}question.h"{}}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <QDialog>}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{namespace }Ui \{}
+\DoxyCodeLine{8 \textcolor{keyword}{class }\mbox{\hyperlink{classquestionentry}{questionentry}};}
+\DoxyCodeLine{9 \}}
+\DoxyCodeLine{13 \textcolor{keyword}{class }\mbox{\hyperlink{classquestionentry}{questionentry}} : \textcolor{keyword}{public} QDialog}
+\DoxyCodeLine{14 \{}
+\DoxyCodeLine{15     Q\_OBJECT}
+\DoxyCodeLine{16     }
+\DoxyCodeLine{17 \textcolor{keyword}{public}:}
+\DoxyCodeLine{22     \textcolor{keyword}{explicit} \mbox{\hyperlink{classquestionentry_a309d1b5fddad9c8a40e624a531be4e9c}{questionentry}}(QWidget *parent = 0);}
+\DoxyCodeLine{27     \mbox{\hyperlink{classquestionentry_a35e9b1656bc41ad37cdfe30465d14656}{\string~questionentry}}();}
+\DoxyCodeLine{31     \mbox{\hyperlink{classquestion}{question}} \mbox{\hyperlink{classquestionentry_ada4f44976390bdc768468c4b7e67ca19}{q}};}
+\DoxyCodeLine{35     \mbox{\hyperlink{classfilehandle}{filehandle}} \mbox{\hyperlink{classquestionentry_ac286ee2b62ddb061c1001dcb10b8ab8f}{f}};}
+\DoxyCodeLine{40     \textcolor{keywordtype}{void} \mbox{\hyperlink{classquestionentry_a15ee9e684e291e274b64b1b6f41de2a7}{writetodatafile}}();}
+\DoxyCodeLine{41 \textcolor{keyword}{private} slots:}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43 }
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45     \textcolor{keywordtype}{void} on\_buttonBox\_accepted();}
+\DoxyCodeLine{46 }
+\DoxyCodeLine{47 \textcolor{keyword}{private}:}
+\DoxyCodeLine{48     Ui::questionentry *ui;}
+\DoxyCodeLine{49 \};}
+\DoxyCodeLine{50 }
+\DoxyCodeLine{51 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// QUESTIONENTRY\_H}}
+
+\end{DoxyCode}

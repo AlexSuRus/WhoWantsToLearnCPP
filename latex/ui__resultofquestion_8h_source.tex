@@ -1,0 +1,82 @@
+\hypertarget{ui__resultofquestion_8h_source}{}\doxysection{ui\+\_\+resultofquestion.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{/********************************************************************************}}
+\DoxyCodeLine{2 \textcolor{comment}{** Form generated from reading UI file 'resultofquestion.ui'}}
+\DoxyCodeLine{3 \textcolor{comment}{**}}
+\DoxyCodeLine{4 \textcolor{comment}{** Created by: Qt User Interface Compiler version 6.2.2}}
+\DoxyCodeLine{5 \textcolor{comment}{**}}
+\DoxyCodeLine{6 \textcolor{comment}{** WARNING! All changes made in this file will be lost when recompiling UI file!}}
+\DoxyCodeLine{7 \textcolor{comment}{********************************************************************************/}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#ifndef UI\_RESULTOFQUESTION\_H}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#define UI\_RESULTOFQUESTION\_H}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include <QtCore/QVariant>}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include <QtWidgets/QApplication>}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include <QtWidgets/QGraphicsView>}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include <QtWidgets/QLabel>}}
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#include <QtWidgets/QPushButton>}}
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#include <QtWidgets/QWidget>}}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19 QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21 \textcolor{keyword}{class }\mbox{\hyperlink{class_ui__resultofquestion}{Ui\_resultofquestion}}}
+\DoxyCodeLine{22 \{}
+\DoxyCodeLine{23 \textcolor{keyword}{public}:}
+\DoxyCodeLine{24     QLabel *result;}
+\DoxyCodeLine{25     QGraphicsView *tickorcross;}
+\DoxyCodeLine{26     QLabel *uhavwon;}
+\DoxyCodeLine{27     QLabel *money;}
+\DoxyCodeLine{28     QPushButton *pushButton;}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{30     \textcolor{keywordtype}{void} setupUi(QWidget *resultofquestion)}
+\DoxyCodeLine{31     \{}
+\DoxyCodeLine{32         \textcolor{keywordflow}{if} (resultofquestion-\/>objectName().isEmpty())}
+\DoxyCodeLine{33             resultofquestion-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}resultofquestion"{}}));}
+\DoxyCodeLine{34         resultofquestion-\/>resize(640, 327);}
+\DoxyCodeLine{35         resultofquestion-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}background-\/color:white;"{}}));}
+\DoxyCodeLine{36         result = \textcolor{keyword}{new} QLabel(resultofquestion);}
+\DoxyCodeLine{37         result-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}result"{}}));}
+\DoxyCodeLine{38         result-\/>setGeometry(QRect(40, 50, 351, 81));}
+\DoxyCodeLine{39         tickorcross = \textcolor{keyword}{new} QGraphicsView(resultofquestion);}
+\DoxyCodeLine{40         tickorcross-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}tickorcross"{}}));}
+\DoxyCodeLine{41         tickorcross-\/>setGeometry(QRect(370, 20, 181, 151));}
+\DoxyCodeLine{42         tickorcross-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}border-\/image:url(:/resource/resource/tick.png)"{}}));}
+\DoxyCodeLine{43         uhavwon = \textcolor{keyword}{new} QLabel(resultofquestion);}
+\DoxyCodeLine{44         uhavwon-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}uhavwon"{}}));}
+\DoxyCodeLine{45         uhavwon-\/>setGeometry(QRect(120, 190, 181, 51));}
+\DoxyCodeLine{46         money = \textcolor{keyword}{new} QLabel(resultofquestion);}
+\DoxyCodeLine{47         money-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}money"{}}));}
+\DoxyCodeLine{48         money-\/>setGeometry(QRect(320, 190, 261, 51));}
+\DoxyCodeLine{49         pushButton = \textcolor{keyword}{new} QPushButton(resultofquestion);}
+\DoxyCodeLine{50         pushButton-\/>setObjectName(QString::fromUtf8(\textcolor{stringliteral}{"{}pushButton"{}}));}
+\DoxyCodeLine{51         pushButton-\/>setGeometry(QRect(210, 256, 211, 41));}
+\DoxyCodeLine{52         pushButton-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}color:white;\(\backslash\)n"{}}}
+\DoxyCodeLine{53 \textcolor{stringliteral}{"{}background-\/color:black;"{}}));}
+\DoxyCodeLine{54 }
+\DoxyCodeLine{55         retranslateUi(resultofquestion);}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57         QMetaObject::connectSlotsByName(resultofquestion);}
+\DoxyCodeLine{58     \} \textcolor{comment}{// setupUi}}
+\DoxyCodeLine{59 }
+\DoxyCodeLine{60     \textcolor{keywordtype}{void} retranslateUi(QWidget *resultofquestion)}
+\DoxyCodeLine{61     \{}
+\DoxyCodeLine{62         resultofquestion-\/>setWindowTitle(QCoreApplication::translate(\textcolor{stringliteral}{"{}resultofquestion"{}}, \textcolor{stringliteral}{"{}Result"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{63         result-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}resultofquestion"{}}, \textcolor{stringliteral}{"{}<html><head/><body><p align=\(\backslash\)"{}center\(\backslash\)"{}><span style=\(\backslash\)"{} font-\/size:16pt; font-\/weight:600;\(\backslash\)"{}>Right/Wrong Answer</span></p></body></html>"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{64         uhavwon-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}resultofquestion"{}}, \textcolor{stringliteral}{"{}<html><head/><body><p align=\(\backslash\)"{}center\(\backslash\)"{}><span style=\(\backslash\)"{} font-\/size:14pt; font-\/weight:600;\(\backslash\)"{}>You get</span></p></body></html>"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{65         money-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}resultofquestion"{}}, \textcolor{stringliteral}{"{}<html><head/><body><p align=\(\backslash\)"{}center\(\backslash\)"{}><span style=\(\backslash\)"{} font-\/size:16pt; color:\#3192f8;\(\backslash\)"{}>0</span></p></body></html>"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{66         pushButton-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}resultofquestion"{}}, \textcolor{stringliteral}{"{}Go to next Question"{}}, \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{67     \} \textcolor{comment}{// retranslateUi}}
+\DoxyCodeLine{68 }
+\DoxyCodeLine{69 \};}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{71 \textcolor{keyword}{namespace }Ui \{}
+\DoxyCodeLine{72     \textcolor{keyword}{class }\mbox{\hyperlink{class_ui_1_1resultofquestion}{resultofquestion}}: \textcolor{keyword}{public} \mbox{\hyperlink{class_ui__resultofquestion}{Ui\_resultofquestion}} \{\};}
+\DoxyCodeLine{73 \} \textcolor{comment}{// namespace Ui}}
+\DoxyCodeLine{74 }
+\DoxyCodeLine{75 QT\_END\_NAMESPACE}
+\DoxyCodeLine{76 }
+\DoxyCodeLine{77 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// UI\_RESULTOFQUESTION\_H}}
+
+\end{DoxyCode}
